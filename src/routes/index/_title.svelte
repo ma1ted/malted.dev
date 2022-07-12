@@ -35,10 +35,10 @@
 			<h2 in:fly={{ y: -50, duration: 500 }}>Coming soon.</h2>
 			<div id="links" in:fly={{ y: -100, duration: 500 }}>
 				<a href="https://github.com/ma1ted">
-					<img src="/icons/github.svg" alt="GitHub" />
+					<img rel="preload" as="image" src="/icons/github.svg" alt="GitHub" />
 				</a>
 				<a href="https://twitter.com/ma1ted">
-					<img src="/icons/twitter.svg" alt="Twitter" />
+					<img rel="preload" as="image" src="/icons/twitter.svg" alt="Twitter" />
 				</a>
 			</div>
 		</div>

@@ -6,14 +6,12 @@
 		src: url("/fonts/JetBrainsMono-Regular.woff2") format("woff2");
 		font-weight: normal;
 		font-style: normal;
-		font-display: swap;
 	}
 	@font-face {
 		font-family: "JetBrains Mono";
 		src: url("/fonts/JetBrainsMono-Thin.woff2") format("woff2");
 		font-weight: 100;
 		font-style: normal;
-		font-display: swap;
 	}
 
 	:root {
