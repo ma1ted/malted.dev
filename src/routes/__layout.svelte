@@ -14,6 +14,10 @@
 		font-style: normal;
 	}
 
+	:global(html, body) {
+		margin: 0;
+	}
+
 	:root {
 		--text-primary: #e0fbfc;
 		--text-primary-filter: invert(93%) sepia(6%) saturate(1459%) hue-rotate(174deg) brightness(104%)
@@ -35,9 +39,13 @@
 		--accent-filter: invert(56%) sepia(14%) saturate(6741%) hue-rotate(331deg) brightness(100%)
 			contrast(87%);
 
+		--panel-border-radius: 6px;
+		background-color: var(--bg);
+	}
+
+	:global(*) {
 		font-family: "JetBrains Mono", monospace;
 		color: var(--text-primary);
-		background: var(--bg);
 	}
 
 	:global(::selection) {
