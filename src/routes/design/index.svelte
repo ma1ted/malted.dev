@@ -1,7 +1,8 @@
 <script>
-	import Colours from "./views/_colours.svelte";
-	import Typography from "./views/_typography.svelte";
-	import Buttons from "./views/_buttons.svelte";
+	import Colours from "./views/colours.svelte";
+	import Typography from "./views/typography.svelte";
+	import Buttons from "./views/buttons.svelte";
+	import Inputs from "./views/inputs.svelte";
 </script>
 
 <main>
@@ -9,6 +10,7 @@
 	<Colours />
 	<Typography />
 	<Buttons />
+	<Inputs />
 </main>
 
 <footer />
@@ -18,10 +20,21 @@
 		margin: 0;
 	}
 
+	:global(details.input-description) {
+		cursor: pointer;
+		user-select: none;
+	}
+
+	:global(details.input-description > p) {
+		font-size: 0.8rem;
+		font-weight: 100;
+	}
+
 	main {
 		margin: 2rem;
 		display: flex;
 		flex-direction: column;
+		align-items: flex-start;
 		gap: 3rem;
 	}
 

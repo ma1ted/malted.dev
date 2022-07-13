@@ -14,9 +14,14 @@
 </section>
 
 <style>
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
 	#colours {
 		display: flex;
-		gap: 3rem;
-		border-radius: 14px;
+		gap: 2rem;
+		flex-wrap: wrap;
 	}
 </style>

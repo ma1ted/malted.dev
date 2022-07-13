@@ -30,29 +30,40 @@
 	}
 	#fonts {
 		display: flex;
-		flex-direction: row;
+		flex-wrap: wrap;
 		gap: 3rem;
+	}
 
-		width: fit-content;
+	h3 {
+		margin-top: 0;
 	}
 	#thin * {
 		font-weight: 100;
 	}
 
+	#fonts > div > p:last-child {
+		margin-bottom: 0;
+	}
+
 	#font-link {
 		display: flex;
 		align-items: center;
-		gap: 1rem;
+		gap: 0.5rem;
 		width: fit-content;
 		text-decoration: none;
+		border: 2px solid var(--primary);
+		border-radius: var(--panel-border-radius);
+
+		padding: 0.5rem;
 	}
 
 	#font-link img {
 		filter: invert(100%);
-		width: 22px;
+		width: 20px;
 	}
 	#font-link p {
-		font-size: 0.8rem;
+		font-size: 0.7rem;
 		font-weight: 100;
+		margin: 0;
 	}
 </style>
