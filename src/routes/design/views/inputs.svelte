@@ -7,9 +7,13 @@
 	<div id="buttons">
 		<div id="normal-backdrop">
 			<Input placeholder="Default input" />
+			<Input checkbox />
+			<Input checkbox checked />
 		</div>
 		<div id="primary-backdrop">
 			<Input primary placeholder="Primary input" />
+			<Input checkbox />
+			<Input checkbox checked />
 		</div>
 	</div>
 
